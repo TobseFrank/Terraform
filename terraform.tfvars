@@ -1,0 +1,1 @@
+website_bucket_name = "meinewebsite1994"
