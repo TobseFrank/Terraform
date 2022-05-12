@@ -1,0 +1,14 @@
+body{
+    margin: 20px;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+div {
+    margin:  20px 0 20px 0;
+}
+td {
+    width: 200px;
+}

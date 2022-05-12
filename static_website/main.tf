@@ -20,6 +20,7 @@ EOF
 
   website {
     index_document = "index.html"
+
   }
 }
 
@@ -34,4 +35,13 @@ resource "aws_s3_bucket_object" "index_upload" {
   source = var.index_path
 
   content_type = "text/html"
+}
+
+resource "aws_s3_bucket_object" "main_css" {
+  bucket = aws_s3_bucket.website_bucket.bucket
+  key = "style.css"
+
+  source = var.css_path
+
+  content_type = "text/css"
 }

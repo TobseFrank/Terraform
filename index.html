@@ -2,36 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>NoteIt</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="card" id="204022">
-    <link rel="stylesheet" href="204022.css">
-    <div id="div204022CardDesign">
-        <div id="div204022PersonalImage">
-            <img id="img204022PersonalImage" src="204022.png" alt="personalImg">
-        </div>
-        <div id="div204022TextCard">
-            <p>Name: Tobias Frank</p>
-            <p>Studiengang: SEB</p>
-            <p>Fachsemester: 7</p>
-            <a id="span204022extraField"><b id="text204022infoField">i</b>
-                <div id="div204022InfoCard">
-                    <p id="text204022quotationMark"><b>"</b></p>
-                    <p id="text204022studiesInfo">Ich habe mich für <u>Web Application Development</u> entschieden,
-                        weil mir das bisherige Programmieren von Webseiten bereits sehr viel spaß gemacht hat.</p>
-                    <img id="img204022hhnLogo" src="204022/204022_hhnLogo.png" alt="hhnLogo">
-                </div>
-            </a>
-        </div>
-        <div id="div204022GitLogo">
-            <span>
-                <a href="https://git.it.hs-heilbronn.de">
-                    <img id="img204022GitImage" src="gitlab-icon-rgb.png" alt="">
-                </a>
-            </span>
-        </div>
+<h1>NoteIt</h1>
+<div>
+    <h3>Deine neue Notiz</h3>
+    <input placeholder="ID">
+    <input placeholder="Notiz">
+    <input type="button" value="Notieren" onclick="">
+</div>
+<hr>
+<div>
+    <h3>Deine bisherigen Notizen</h3>
+    <div>
+        <input placeholder="ID">
+        <input type="button" value="Abfragen" onclick="">
     </div>
+    <table>
+        <tbody>
+        <tr>
+            <th>ID</th>
+            <th>Notiz</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Tu das</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Tu dies</td>
+        </tr>
+        </tbody>
+    </table>
 </div>
 </body>
 </html>
